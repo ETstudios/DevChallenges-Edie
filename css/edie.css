@@ -1,0 +1,54 @@
+/* Imports */
+@import url('../fonts/Poppins-Regular.ttf');
+@import url('../fonts/Poppins-Light.ttf');
+@import url('../fonts/Poppins-Medium.ttf');
+@import url('../fonts/Poppins-Bold.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+
+
+/* General */
+:root {
+    
+}
+
+* {  
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body { 
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-size: 1em;
+    font-weight: 200;
+}
+a { text-decoration: none; }
+a, a:visited, a:focus { color: #4a4a4a; }
+a:active, a:hover { color: #727272; }
+footer a:hover { text-decoration: underline; }
+.uppercase { text-transform: uppercase; }
+.center-text { text-align: center; }
+.clear { 
+    clear: both;
+    margin-bottom: 20px; 
+}
+
+/* Edie Design */
+.logo {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+/* Queries */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .clear { margin-bottom: 2%;  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .clear { margin-bottom: 2%; }
+}
