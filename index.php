@@ -12,34 +12,85 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<header>
-        <div class="col-xs-6">
-            <span class="logo"> Edie </span>
-        </div>
-        <div class="col-xs-6">
-            <nav id="menu">
-                <span class="material-icons" id="menu-toggle" onclick="MenuToggle()">menu</span>
-                <ul>
-                    <li>
-                        <a href="index.php" class="active"> Home </a>
-                    </li>
-                    <li>
-                        <a href="#services"> Services </a>
-                    </li>
-                    <li>
-                        <a href="#portfolio"> Our Works </a>
-                    </li>
-                    <li>
-                        <a href="#clients"> Clients </a>
-                    </li>
-                    <li>
-                        <a href="#contact"> Contact </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+	<header class="container">
+		<div class="row">
+			<div class="col-3">
+				<span class="logo"> Edie </span>
+			</div>
+			<div class="col-9">
+				<nav id="menu">
+					<span class="material-icons" id="menu-toggle" onclick="MenuToggle()">menu</span>
+					<ul>
+						<li>
+							<a href="index.php" class="active"> Home </a>
+						</li>
+						<li>
+							<a href="#services"> Services </a>
+						</li>
+						<li>
+							<a href="#portfolio"> Our Works </a>
+						</li>
+						<li>
+							<a href="#clients"> Clients </a>
+						</li>
+						<li>
+							<a href="#contact"> Contact </a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
     </header>
 
+	<div class="clear lg"> &nbsp; </div>
+
+	<section class="container" id="about">
+		<div class="row">
+			<div class="col-1 col-md-2"> &nbsp; </div>
+			<div class="col-10 col-md-4"> 
+				<span class="blue"> unhappy with your website? </span>
+				<h2> We create beautiful and fast web services </h2>
+			</div>
+			<div class="col-1 col-md-6"> &nbsp; </div>
+		</div>
+		<div class="row">
+			<img src="img/team.jpg" alt="Team strategizing on whiteboard" class="hero">
+		</div>
+		<div class="clear"> &nbsp; </div>
+		<div class="row">
+			<div class="col-1 col-md-2"> &nbsp; </div>
+			<div class="col-10 col-md-3"> 
+				<h2> Story, emotion and purpose </h2>
+				<p>
+					We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+				</p>
+				<span class="sm"> Want us to contact you? </span>
+				<form action="#" method="post" class="emailer">
+					<input type="email" placeholder="Email">
+					<input type="submit" value="Join">
+				</form>
+			</div>
+			<div class="col-1 col-md-6"> &nbsp; </div>
+		</div>
+	</section>
+	
+	<div class="clear lg"> &nbsp; </div>
+
+	<section class="container" id="services">
+		a
+	</section>
+	
+	<section class="container" id="portfolio">
+
+	</section>
+	
+	<section class="container" id="clients">
+
+	</section>
+
+	<footer class="container" id="contact">
+
+	</footer>
 
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/mobile-nav.js"></script>

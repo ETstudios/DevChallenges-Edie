@@ -9,6 +9,7 @@
 /* General */
 :root {
     --black: #333333;
+    --light-grey: #F2F2F2;
     --dark-grey: #100E1D;
     --blue: #2D9CDB;
     --green: #27AE60;
@@ -26,36 +27,52 @@ html, body {
 body { 
     padding: 20px;
     font-family: 'Poppins', sans-serif;
+    line-height: 2em;
 }
 p {
     font-size: 1em;
     font-weight: 200;
 }
-a { text-decoration: none; }
-a, a:visited, a:focus { color: #4a4a4a; }
-a:active, a:hover { color: #727272; }
-footer a:hover { text-decoration: underline; }
-.uppercase { text-transform: uppercase; }
-.center-text { text-align: center; }
 .clear { 
     clear: both;
     margin-bottom: 20px; 
 }
+.clear.lg { margin-bottom: 100px; }
 
-/* Edie Design */
-header {
-    padding: 10px;
+
+/* Text */
+a { text-decoration: none; }
+a, a:visited, a:focus { color: #4a4a4a; }
+a:active, a:hover { color: #727272; }
+.uppercase { text-transform: uppercase; }
+.center-text { text-align: center; }
+.red { color: var(--red); }
+.blue { color: var(--blue); }
+.green { color: var(--green); }
+
+
+/* Images */
+.hero {
+    width: 100%;
+    border-radius: 20px;
 }
+.logo {
+    font-family: 'Heebo', sans-serif;
+    float: left;
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* Header */
+header { padding: 10px; }
 #menu ul li {
     list-style: none;
     float: left;
 }
-#menu {
-    float: right;
-}
-#menu ul li {
-    margin-right: 120px;
-}
+#menu { float: right; }
+#menu ul li { margin-right: 80px; }
 #menu ul li a {
     font-family: 'Poppins';
     font-size: 1.2em;
@@ -66,13 +83,6 @@ nav a:hover::after, a.active::after {
     width: 100%;
     height: 3px;
     margin-top: 1px;
-}
-.logo {
-    font-family: 'Heebo', sans-serif;
-    float: left;
-    font-size: 1.4em;
-    font-weight: 500;
-    text-align: center;
 }
 #menu-toggle {
     font-size: 2.4em;
@@ -94,12 +104,47 @@ nav a:hover::after, a.active::after {
 .menu-opened a:active, .menu-opened a:focus, .menu-opened a:hover { color: #efefef; }
 
 
+/* About */
+#about span:first-child, #about h2 { 
+    display: block;
+    margin-bottom: 20px; 
+}
+#about span.sm { font-size: 0.8em; }
+.emailer { position: relative; }
+.emailer input {
+    border: 0;
+    border-radius: 12px;
+    float: left;
+    position: absolute;
+}
+.emailer input[type='email'], .emailer input[type='text'] {
+    width: 80%;
+    padding: 14px 20px;
+    background-color: var(--light-grey);
+    left: 0;
+}
+.emailer input[type='submit'] {
+    width: 30%;
+    padding: 10px;
+    top: 4px;
+    left: 70%;
+    background-color: var(--blue);
+    color: #fff;
+}
+
+
+
+/* Footer */
+footer a:hover { text-decoration: underline; }
+
+
+
 /* Queries */
 @media only screen and (min-width: 0px) and (max-width: 600px) {
-    .clear { margin-bottom: 2%;  }
-    #menu ul {
-        display: none;
-    }
+    .clear { margin-bottom: 4px; }
+    .clear.lg { margin-bottom: 20px; }
+    body { padding: 5px; }
+    #menu ul { display: none; }
     #menu.menu-opened ul { 
         display: block; 
         position: absolute;
@@ -120,12 +165,11 @@ nav a:hover::after, a.active::after {
         margin: 1px auto 0;
     }
     #menu-toggle { display: block; }  
+    #about span:first-child, #about h2 { margin-bottom: 14px; }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
-    .clear { margin-bottom: 2%; }
-    .showcase {
-        font-size: 0.9em;
-    }
+    .clear { margin-bottom: 4px; }
+    .showcase { font-size: 0.9em; }
     #menu ul li { margin-right: 40px; }
 }
