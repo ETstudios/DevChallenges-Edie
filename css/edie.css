@@ -10,7 +10,7 @@
 :root {
     --black: #333333;
     --light-grey: #F2F2F2;
-    --dark-grey: #100E1D;
+    --dark-grey: #222222;
     --blue: #2D9CDB;
     --green: #27AE60;
     --red: #EB5757;
@@ -28,6 +28,7 @@ body {
     padding: 20px;
     font-family: 'Poppins', sans-serif;
     line-height: 2em;
+    color: var(--black);
 }
 p {
     font-size: 1em;
@@ -49,7 +50,7 @@ a:active, a:hover { color: #727272; }
 .red { color: var(--red); }
 .blue { color: var(--blue); }
 .green { color: var(--green); }
-
+strong { display: block; }
 
 /* Images */
 .hero {
@@ -133,6 +134,49 @@ nav a:hover::after, a.active::after {
 }
 
 
+/* Services */
+#services strong {
+    margin: 24px 0;
+}
+#services .material-icons {
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.8em;
+    text-align: center;
+}
+#services .service:nth-child(1) .material-icons { background-color: var(--blue); }
+#services .service:nth-child(2) .material-icons { background-color: var(--green); }
+#services .service:nth-child(3) .material-icons { background-color: var(--red); }
+#services .service article {
+    width: 80%;
+    height: 100%;
+    padding: 30px;
+    box-shadow: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+#services .service button {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
+    transition: background-color 1s;
+    transition: color 0.5s;
+}
+#services .service:hover article {
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.21);
+}
+#services .service:hover button {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+
+
+
 
 /* Footer */
 footer a:hover { text-decoration: underline; }
@@ -142,7 +186,7 @@ footer a:hover { text-decoration: underline; }
 /* Queries */
 @media only screen and (min-width: 0px) and (max-width: 600px) {
     .clear { margin-bottom: 4px; }
-    .clear.lg { margin-bottom: 20px; }
+    .clear.lg { margin-bottom: 50px; }
     body { padding: 5px; }
     #menu ul { display: none; }
     #menu.menu-opened ul { 
@@ -166,6 +210,8 @@ footer a:hover { text-decoration: underline; }
     }
     #menu-toggle { display: block; }  
     #about span:first-child, #about h2 { margin-bottom: 14px; }
+    .hidden { display: none;}
+    #services .service article { width: 100%; }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {

@@ -77,11 +77,49 @@
 	<div class="clear lg"> &nbsp; </div>
 
 	<section class="container" id="services">
-		a
+		<div class="row">
+			<div class="col-12 col-md-3">
+				<h2> We offer high demand services </h2>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-4 service">
+				<article>
+					<span class="material-icons">create</span>
+					<strong> UI/UX Design </strong>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+					</p>
+					<button> Get Started </button>
+				</article>
+			</div>
+			<div class="col-12 col-md-4 service">
+				<article>
+					<span class="material-icons">code</span>
+					<strong> Front End </strong>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+					</p>
+					<button> Get Started </button>
+				</article>
+			</div>
+			<div class="col-12 col-md-4 service">
+				<article>
+					<span class="material-icons">list</span>
+					<strong> Back End </strong>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+					</p>
+					<button> Get Started </button>
+				</article>
+			</div>
+		</div>
 	</section>
+
+	<div class="clear lg"> &nbsp; </div>
 	
 	<section class="container" id="portfolio">
-
+		
 	</section>
 	
 	<section class="container" id="clients">
