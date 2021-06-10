@@ -119,8 +119,61 @@
 	<div class="clear lg"> &nbsp; </div>
 	
 	<section class="container" id="portfolio">
-		
+		<div class="row">
+			<div class="col-12 col-md-4">
+				<h2> Good design means good business </h2>
+				<br>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-6 showcase">
+				<img src="img/smart-home.jpg" alt="Smart home app control dashboard">
+				<p class="subtitle">
+					Full stack application
+				</p>
+				<p class="description">
+					Smart home dashboard
+				</p>
+			</div>
+			<div class="col-12 col-md-6 showcase">
+				<img src="img/onboard.png" alt="Onboarding app UI design">
+				<p class="subtitle">
+					UX/UI design
+				</p>
+				<p class="description">
+					Onboard application
+				</p>
+			</div>
+			<div class="col-12 col-md-6 showcase">
+				<img src="img/booking.png" alt="Event booking app UI design">
+				<p class="subtitle">
+					Mobile application
+				</p>
+				<p class="description">
+					Booking system
+				</p>
+			</div>
+			<div class="col-12 col-md-6 showcase">
+				<img src="img/juice.png" alt="Smart Juice app design">
+				<p class="subtitle">
+					Front End application
+				</p>
+				<p class="description">
+					Juice product homepage
+				</p>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-7 col-md-10"> &nbsp; </div>
+			<div class="col-5 col-md-2">
+				<a href="#">
+					see more <span class="material-icons">trending_flat</span>
+				</a>
+			</div>
+		</div>	
 	</section>
+
+	<div class="clear lg"> &nbsp; </div>
 	
 	<section class="container" id="clients">
 
