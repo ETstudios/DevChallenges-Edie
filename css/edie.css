@@ -180,11 +180,13 @@ nav a:hover::after, a.active::after {
     width: 100%;
     border-radius: 5%;
 }
+.subtitle {
+    font-size: 0.9em;
+    font-weight: 400;
+}
 .showcase .subtitle {
     color: var(--dark-grey);
     margin: 10px 0 -5px;
-    font-size: 0.9em;
-    font-weight: 400;
 }
 .showcase .description {
     font-weight: 600;
@@ -199,6 +201,29 @@ nav a:hover::after, a.active::after {
 
 
 
+/* Team */
+.team {
+    position: relative;
+}
+.team img.member {
+    width: 300px;
+    border-radius: 10%;
+    position: absolute;
+}
+.team .member:nth-child(1) {
+    left: 0;
+    top: 150px;
+}
+.team .member:nth-child(2) {
+    right: 0;
+}
+.team .member:nth-child(3) {
+    right: 0;
+    top: 330px;
+}
+
+
+
 /* Footer */
 footer a:hover { text-decoration: underline; }
 
@@ -209,6 +234,17 @@ footer a:hover { text-decoration: underline; }
     .clear { margin-bottom: 4px; }
     .clear.lg { margin-bottom: 50px; }
     body { padding: 5px; }
+    /* Mobile Nav
+    header { 
+        position: fixed; 
+        top: 0;
+        left: 0;
+        background: #fff;
+        z-index: 999;
+        box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.4);
+    }
+    */
+
     #menu ul { display: none; }
     #menu.menu-opened ul { 
         display: block; 
@@ -234,6 +270,9 @@ footer a:hover { text-decoration: underline; }
     .hidden { display: none;}
     #services .service article { width: 100%; }
     #portfolio .showcase:nth-child(odd) { margin-top: 0; }
+    .team img.member { width: 174px; }
+    .team .member:nth-child(1) { top: 80px; }
+    .team .member:nth-child(3) { top: 188px; }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {

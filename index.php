@@ -174,10 +174,40 @@
 	</section>
 
 	<div class="clear lg"> &nbsp; </div>
+
+	<section class="container" id="team">
+		<div class="row">
+			<div class="col-12 col-md-3">
+				<p class="subtitle red">
+					Meet the team
+				</p>
+				<h2>
+					We are chilled and a laidback team
+				</h2>
+				<p class="subtitle">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</p>
+			</div>
+			<div class="col-12 col-md-2 hidden"> &nbsp; </div>
+			<div class="col-12 col-md-6 team">
+				<img src="img/person1.png" alt="Jane Smith smiling at the camera" class="member">
+				<img src="img/person2.png" alt="John Smith self-portrait photo" class="member">
+				<img src="img/person3.png" alt="" class="member">
+			</div>
+		</div>
+	</section>
+
+	<div class="clear lg"> &nbsp; </div>
 	
 	<section class="container" id="clients">
 
 	</section>
+
+<?php /*
+	“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    
+*/ ?>
+
+	<div class="clear lg"> &nbsp; </div>
 
 	<footer class="container" id="contact">
 
