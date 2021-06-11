@@ -62,7 +62,7 @@
 			<div class="col-10 col-md-3"> 
 				<h2> Story, emotion and purpose </h2>
 				<p>
-					We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+					We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in a short period of time.
 				</p>
 				<span class="sm"> Want us to contact you? </span>
 				<form action="#" method="post" class="emailer">
@@ -182,7 +182,7 @@
 					Meet the team
 				</p>
 				<h2>
-					We are chilled and a laidback team
+					We are a chill and laidback team
 				</h2>
 				<p class="subtitle">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -200,17 +200,26 @@
 	<div class="clear lg"> &nbsp; </div>
 	
 	<section class="container" id="clients">
-
+		<div class="row">
+			<div class="col-12 col-md-7">
+				<h2> “Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”  </h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4 col-md-1">
+				<img src="img/person4.png" alt="Carlos Tran portrait photo">
+			</div>
+			<div class="col-8 col-md-11">
+				<p class="description"> Carlos Tran  </p>
+				<p class="subtitle"> The Decorate Gatsby  </p>
+			</div>
+		</div>
 	</section>
-
-<?php /*
-	“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”    
-*/ ?>
 
 	<div class="clear lg"> &nbsp; </div>
 
 	<footer class="container" id="contact">
-
+		
 	</footer>
 
 	<script src="js/bootstrap.min.js"></script>

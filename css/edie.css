@@ -188,7 +188,7 @@ nav a:hover::after, a.active::after {
     color: var(--dark-grey);
     margin: 10px 0 -5px;
 }
-.showcase .description {
+.description {
     font-weight: 600;
 }
 #portfolio .showcase { margin-top: 20px; }
@@ -202,6 +202,7 @@ nav a:hover::after, a.active::after {
 
 
 /* Team */
+#team { margin-bottom: 500px; }
 .team {
     position: relative;
 }
@@ -220,6 +221,15 @@ nav a:hover::after, a.active::after {
 .team .member:nth-child(3) {
     right: 0;
     top: 330px;
+}
+
+/* Clients */
+#clients img { 
+    width: 100%; 
+    border-radius: 15%;
+}
+#clients .description {
+    margin: 20px 0 4px;
 }
 
 
@@ -273,6 +283,7 @@ footer a:hover { text-decoration: underline; }
     .team img.member { width: 174px; }
     .team .member:nth-child(1) { top: 80px; }
     .team .member:nth-child(3) { top: 188px; }
+    #clients h2 { margin-bottom: 30px; }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
