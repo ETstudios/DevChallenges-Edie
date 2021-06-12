@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div class="body">
-		<header class="container">
+		<header class="container" id="header">
 			<div class="row">
 				<div class="col-3">
 					<span class="logo"> Edie </span>
@@ -47,20 +47,20 @@
 
 		<section class="container" id="about">
 			<div class="row">
-				<div class="col-1 col-md-2"> &nbsp; </div>
-				<div class="col-10 col-md-4"> 
+				<div class="col-1 col-md-2 col-lg-2"> &nbsp; </div>
+				<div class="col-10 col-md-6 col-lg-4"> 
 					<span class="blue"> unhappy with your website? </span>
 					<h2> We create beautiful and fast web services </h2>
 				</div>
-				<div class="col-1 col-md-6"> &nbsp; </div>
+				<div class="col-1 col-md-4 col-lg-6"> &nbsp; </div>
 			</div>
 			<div class="row">
 				<img src="img/team.jpg" alt="Team strategizing on whiteboard" class="hero">
 			</div>
 			<div class="clear"> &nbsp; </div>
 			<div class="row">
-				<div class="col-1 col-md-2"> &nbsp; </div>
-				<div class="col-10 col-md-3"> 
+				<div class="col-1 col-md-2 col-lg-2"> &nbsp; </div>
+				<div class="col-10 col-md-6 col-lg-3"> 
 					<h2> Story, emotion and purpose </h2>
 					<p>
 						We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in a short period of time.
@@ -71,7 +71,7 @@
 						<input type="submit" value="Join">
 					</form>
 				</div>
-				<div class="col-1 col-md-6"> &nbsp; </div>
+				<div class="col-1 col-md-4 col-lg-6"> &nbsp; </div>
 			</div>
 		</section>
 		
@@ -79,12 +79,12 @@
 
 		<section class="container" id="services">
 			<div class="row">
-				<div class="col-12 col-md-3">
+				<div class="col-12 col-md-5 col-lg-3">
 					<h2> We offer high demand services </h2>	
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12 col-md-4 service">
+				<div class="col-12 col-lg-4 service">
 					<article>
 						<span class="material-icons">create</span>
 						<strong> UI/UX Design </strong>
@@ -94,7 +94,7 @@
 						<button> Get Started </button>
 					</article>
 				</div>
-				<div class="col-12 col-md-4 service">
+				<div class="col-12 col-lg-4 service">
 					<article>
 						<span class="material-icons">code</span>
 						<strong> Front End </strong>
@@ -104,7 +104,7 @@
 						<button> Get Started </button>
 					</article>
 				</div>
-				<div class="col-12 col-md-4 service">
+				<div class="col-12 col-lg-4 service">
 					<article>
 						<span class="material-icons">list</span>
 						<strong> Back End </strong>
@@ -121,7 +121,7 @@
 		
 		<section class="container" id="portfolio">
 			<div class="row">
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-6 col-lg-4">
 					<h2> Good design means good business </h2>
 					<br>	
 				</div>
@@ -178,7 +178,7 @@
 
 		<section class="container" id="team">
 			<div class="row">
-				<div class="col-12 col-md-3">
+				<div class="col-12 col-md-4 col-lg-3">
 					<p class="subtitle red">
 						Meet the team
 					</p>
@@ -189,8 +189,8 @@
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 					</p>
 				</div>
-				<div class="col-12 col-md-2 hidden"> &nbsp; </div>
-				<div class="col-12 col-md-6 team">
+				<div class="col-12 col-md-1 col-lg-2 hidden"> &nbsp; </div>
+				<div class="col-12 col-md-7 col-lg-6 team">
 					<img src="img/person1.png" alt="Jane Smith smiling at the camera" class="member">
 					<img src="img/person2.png" alt="John Smith self-portrait photo" class="member">
 					<img src="img/person3.png" alt="" class="member">
@@ -202,23 +202,23 @@
 		
 		<section class="container" id="clients">
 			<div class="row">
-				<div class="col-12 col-md-7">
+				<div class="col-12 col-md-10 col-lg-7">
 					<h2> “Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”  </h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-4 col-md-1">
+				<div class="col-4 col-md-2 col-lg-1">
 					<img src="img/person4.png" alt="Carlos Tran portrait photo">
 				</div>
-				<div class="col-8 col-md-11">
+				<div class="col-8 col-md-10 col-lg-11">
 					<p class="description"> Carlos Tran  </p>
 					<p class="subtitle"> The Decorate Gatsby  </p>
 				</div>
 			</div>
 		</section>
-
-		<div class="clear lg"> &nbsp; </div>
 	</div>
+
+	<div class="clear lg"> &nbsp; </div>
 
 	<footer id="contact">
 		<div class="container">
@@ -248,7 +248,7 @@
 					</a>
 				</div>
 				<div class="col-12 col-md-4">
-					<p>
+					<p class="lt-grey">
 						Want us to contact you?
 					</p>
 					<form action="#" method="post" class="emailer">
