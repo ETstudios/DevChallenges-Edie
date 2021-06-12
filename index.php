@@ -6,13 +6,15 @@
 	<meta name="author" content="Eric Thomas">
 	<meta name="description" content="Eric Thomas recreation of the DevChallenges Edie challenge">
 	<title> Edie </title>
-	<link rel="shortcut icon" href="img/icon.png">    
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/edie.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/icon.png">    
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/edie.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<div class="body">
+		<a href="#about" class="skip"> Skip to content </a>
+
 		<header class="container" id="header">
 			<div class="row">
 				<div class="col-3">
@@ -21,20 +23,20 @@
 				<div class="col-9">
 					<nav id="menu">
 						<span class="material-icons" id="menu-toggle" onclick="MenuToggle()">menu</span>
-						<ul>
-							<li>
+						<ul role="list" aria-label="Navigation list">
+							<li role="listItem">
 								<a href="index.php" class="active"> Home </a>
 							</li>
-							<li>
+							<li role="listItem">
 								<a href="#services"> Services </a>
 							</li>
-							<li>
+							<li role="listItem">
 								<a href="#portfolio"> Our Works </a>
 							</li>
-							<li>
+							<li role="listItem">
 								<a href="#clients"> Clients </a>
 							</li>
-							<li>
+							<li role="listItem">
 								<a href="#contact"> Contact </a>
 							</li>
 						</ul>
@@ -190,10 +192,10 @@
 					</p>
 				</div>
 				<div class="col-12 col-md-1 col-lg-2 hidden"> &nbsp; </div>
-				<div class="col-12 col-md-7 col-lg-6 team">
+				<div class="col-12 col-md-7 col-lg-6 team" role="img" aria-label="Portrait photographs of the Edie creative team">
 					<img src="img/person1.png" alt="Jane Smith smiling at the camera" class="member">
 					<img src="img/person2.png" alt="John Smith self-portrait photo" class="member">
-					<img src="img/person3.png" alt="" class="member">
+					<img src="img/person3.png" alt="John Doe self-portrait photo" class="member">
 				</div>
 			</div>
 		</section>
