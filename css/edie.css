@@ -317,7 +317,7 @@ footer .emailer input[type='submit'] {
     footer .col-md-4 { margin-bottom: 50px; }
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) and (max-width: 1400px) {
     #menu ul li { margin-right: 30px; }
     #menu ul li a { font-size: 1em; }
     #team { margin-bottom: 100px; }
